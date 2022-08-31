@@ -1,0 +1,42 @@
+.container {
+    top: 227px;
+    position:absolute;
+    width: 100%;
+}
+
+.content {
+    margin-left: 619px;
+    margin-left: 48%;
+    margin-bottom: 400px;
+    width: 860px;
+}
+
+.listTitle {
+    font-size: 128px;
+}
+
+.listWrapper {
+    margin-top: 43px;
+}
+
+.listEl {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 140px;
+}
+
+.listElTitle {
+    margin-top: 34px;
+    border-bottom: 3px #000000 solid;
+    display: flex;
+    flex-direction: row;
+    font-size: 75px;
+}
+
+.listElText {
+    flex: 1
+}
+
+.listElImage {
+    margin-left: 0;
+}

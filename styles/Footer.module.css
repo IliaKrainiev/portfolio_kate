@@ -1,0 +1,45 @@
+.container {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    background-color: #000000;
+    color: #E4E3E3;
+}
+
+.buttonGroup {
+    height: 144px;
+    display: flex;
+    flex-direction: row;
+    border-top: 2px white solid;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 46px;
+}
+
+.footerTitle {
+    padding-top: 100vh;
+    padding-left: 15px;
+    width: 100vw;
+}
+
+.footerTitle1Line {
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+
+.footerTitle2Line {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    font-size: 76px;
+    padding-bottom: 32px;
+}
+
+.arrowImage {
+    background-image: url('../assets/icons/arrow.svg');
+    background-repeat: no-repeat;
+    height: 109px;
+    width: 147px;
+    margin-left: 30px;
+}
