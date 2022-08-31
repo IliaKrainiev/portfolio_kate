@@ -25,7 +25,7 @@ const Layout = ({ children, style }: { children: any, style: any }): any => {
       </div> 
       <div className={styles.vl5} /> 
       <div className={styles.vl6} >
-        <Link href="/projects">
+        <Link href="/contact">
           <span>
           03<br/>CONTACT
           </span>
