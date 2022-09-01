@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import styles from '../styles/Layout.module.css';
 
-const Layout = ({ children, style }: { children: any, style: any }): any => {
+const Layout = ({ children, style }: { children: any, style?: any }): any => {
   return (
     <div className={styles.container} style={style}> 
       {children}
