@@ -1,4 +1,4 @@
-import styles from '../styles/MainPageContent.module.css';
+import styles from '../styles/MainPage.module.css';
 
 const MainPageContent = () => {
   return (

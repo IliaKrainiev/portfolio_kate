@@ -54,7 +54,7 @@ const YourGym = (): any => {
               Problem
               </div>
               <div className={styles.text}>
-              The problem was that there are many different gyms and studios that combine different workouts. That is, in order to go to one training session, you need to sign up for a season ticket, fill out a questionnaire, etc. If you don't like the studio, you will have to do it again and again. In addition, it is necessary to check the websites of dozens of studios for the availability of a particular sport. It's all a lot of steps and takes time.
+              The problem was that there are many different gyms and studios that combine different workouts. That is, in order to go to one training session, you need to sign up for a season ticket, fill out a questionnaire, etc. If you don`t like the studio, you will have to do it again and again. In addition, it is necessary to check the websites of dozens of studios for the availability of a particular sport. I`s all a lot of steps and takes time.
               </div>
               <div className={styles.title}>
               Goal

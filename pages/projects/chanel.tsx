@@ -64,7 +64,7 @@ const Photograh = (): any => {
               Story
               </div>
               <div className={styles.text}>
-              The story unfolds in sequence following significant dates in the brand's history. For example, a new face of a brand or a reissue of a perfume.
+              The story unfolds in sequence following significant dates in the brand`s history. For example, a new face of a brand or a reissue of a perfume.
               </div>
             </div>
 
