@@ -1,7 +1,6 @@
 import type { NextPage } from 'next';
 
 import Layout from './Layout';
-import Footer from './Footer';
 import MainPage from './MainPage';
 import styles from '../styles/Home.module.css';
 

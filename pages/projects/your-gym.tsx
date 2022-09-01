@@ -4,7 +4,6 @@ import Image from 'next/image';
 
 import Pic1 from '../../assets/images/your_gym/pic1.png';
 import Pic2 from '../../assets/images/your_gym/pic2.png';
-
 import Pic3 from '../../assets/images/your_gym/pic3.png';
 import Pic4 from '../../assets/images/your_gym/pic4.png';
 import Pic5 from '../../assets/images/your_gym/pic5.png';
@@ -27,12 +26,14 @@ const YourGym = (): any => {
             <span>YOUR GYM</span>
             <span className={styles.supTitle}>(01)</span>
           </span>
-          <Image
-            className={styles.img1}
-            src={Pic1}
-            layout="responsive"
-            alt=""
-          />
+          <div className={styles.img1Wrapper}>
+            <Image
+              className={styles.img1}
+              src={Pic1}
+              layout="responsive"
+              alt=""
+            />
+          </div>
           <div className={styles.infoContainer}>
             <div className={styles.infoItem}>
               <span className={styles.infoItemTitle}>Service</span>
