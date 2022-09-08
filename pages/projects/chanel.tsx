@@ -1,7 +1,7 @@
 import Footer from '../Footer';
 import Layout from '../Layout';
 
-import styles from '../../styles/Photograph.module.css';
+import styles from '../../styles/Chanel.module.css';
 
 import Pic1 from '../../assets/images/chanel/pic1.png';
 import Pic2 from '../../assets/images/chanel/pic2.png';
@@ -10,7 +10,7 @@ import Pic4 from '../../assets/images/chanel/pic4.png';
 
 import Image from 'next/image';
 
-const Photograh = (): any => {
+const Chanel = (): any => {
   return (
     <Layout style={{height: '3000px' }}>
       <div className={styles.container}>
@@ -94,11 +94,11 @@ const Photograh = (): any => {
               />
             </div>
           </div>
-          <Footer/>
+          <Footer style={{zIndex:'20'}}/>
         </div>
       </div>
     </Layout>
   );
 };
 
-export default Photograh;
+export default Chanel;

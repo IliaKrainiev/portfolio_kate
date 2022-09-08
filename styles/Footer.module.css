@@ -1,46 +1,50 @@
 .container {
     position: absolute;
-    z-index: -1;
     width: 100%;
     background-color: #000000;
     color: #E4E3E3;
     height: 100vh;
 }
 
+.content {
+    padding-top: 50vh;
+}
+
 .buttonGroup {
-    height: 144px;
+    height: 18.02vh;
     display: flex;
     flex-direction: row;
-    border-top: 2px white solid;
+    border-top: 0.25vh white solid;
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    padding: 0 46px;
+    padding-top: 4.01vh;
+    padding-left: 3.19vw;
+    padding-right: 3.19vw;
 }
 
 .footerTitle {
-    padding-top: 60vh;
-    padding-left: 15px;
-    width: 100vw;
+    box-sizing: content-box;
+    padding-left: 0.77vw;
 }
 
 .footerTitle1Line {
-    font-size: 20px;
-    margin-bottom: 6px;
+    font-size: 1.39vw;
+    margin-bottom: 0.75vh;
 }
 
 .footerTitle2Line {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-    font-size: 76px;
-    padding-bottom: 32px;
+    font-size: 5.28vw;
+    padding-bottom: 4.01vh;
 }
 
 .arrowImage {
     background-image: url('../assets/icons/arrow.svg');
     background-repeat: no-repeat;
-    height: 109px;
-    width: 147px;
-    margin-left: 30px;
+    height: 13.64vh;
+    width: 10.21vw;
+    margin-left: 2.08vw;
 }

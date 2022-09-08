@@ -1,42 +1,45 @@
 .container {
-    top: 227px;
+    top: 36.80vh;
     position:absolute;
     width: 100%;
 }
 
 .content {
-    margin-left: 619px;
-    margin-left: 48%;
-    margin-bottom: 400px;
-    width: 860px;
+    position: relative;
 }
 
 .listTitle {
-    font-size: 128px;
+    margin-left: 43.54vw;
+    font-size: 8.89vw;
 }
 
 .listWrapper {
-    margin-top: 43px;
+    padding-right: 0.69vw;
+    margin-top: 5.38vh;
+    margin-left: 43.54vw;
 }
 
 .listEl {
+    width: 100%;
     display: flex;
     flex-direction: column;
-    margin-bottom: 140px;
+    padding-bottom: 17.52vh;
 }
 
 .listElTitle {
-    margin-top: 34px;
-    border-bottom: 3px #000000 solid;
+    width: 55.35vw;
+    margin-top: 4.4vh;
+    border-bottom: 0.38vh #000000 solid;
     display: flex;
     flex-direction: row;
-    font-size: 75px;
+    font-size: 5.21vw;
+    font-weight: normal;
 }
 
-.listElText {
-    flex: 1
-}
-
-.listElImage {
-    margin-left: 0;
+.supTitle {
+    font-size: 1.67vw;
+    font-weight: normal;
+    margin-top: 2vh;
+    margin-left: 0.3vw;
+    flex: 1;
 }

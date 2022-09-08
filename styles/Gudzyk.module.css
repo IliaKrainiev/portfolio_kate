@@ -1,37 +1,38 @@
 .container {
-    top: 294px;
+    top: 36.80vh;
     position:absolute;
     width: 100%;
 }
 
 .content {
-    padding-bottom: 197px;
+    padding-bottom: 17.77vh;
     width: 100%;
 }
 
 .listTitle {
-    margin-left: 30%;
+    margin-left: 52.22vw;
     font-weight: bold;
-    font-size: 128px;
+    font-size: 8.89vw;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    margin-bottom: 77px;
+    margin-bottom: 9.64vh;
 }
 
 .supTitle {
-    font-size: 40px;
+    font-size: 5.01vh;
     font-weight: normal;
-    margin-top: 20px;
+    margin-top: 2.50vh;
 }
 
 .img1Wrapper {
-    padding: 0 16px;
+    padding-right: 1.11vw;
+    padding-left: 1.11vw;
 }
 
 .img1 {
     width: 100%;
-    height: 764px;
+    height: 95.62vh;
 }
 .content {
     background-color: #E4E3E3;
@@ -39,13 +40,15 @@
 
 .infoContainer {
     width: 100%;
-    font-size: 22px;
+    font-size: 2.75vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0px 147px;
-    padding-top: 87px;
-    height: 220px;
+    padding-left: 10.21vw;
+    padding-right: 10.21vw;
+    padding-top: 10.89vh;
+    background-color: #E4E3E3;
+    height: 27.53vh;
 }
 
 .infoItem {
@@ -58,29 +61,30 @@
 }
 
 .infoItemHint {
-    margin-top: 11px;
+    margin-top: 1.38vh;
     color: #7E7D7D;
     font-weight: normal;
 }
 
 .title {
-    margin-top: 86px;
+    margin-top: 10.76vh;
     font-weight: bold;
-    font-size: 36px;
+    font-size: 2.5vw;
 }
 
 .text {
-    margin-top: 15px;
+    margin-top: 1.88vh;
     font-weight: normal;
-    font-size: 20px;
-    width: 645px;
+    font-size: 1.39vw;
+    width: 44.79vw;
 }
 
 .alignLeft {
-    margin-left: 48%;
+    margin-left: 43.54vw;
 }
 
 .img2Wrapper {
-    padding: 0 16px;
-    margin-top: 86px;
+    padding-right: 1.11vw;
+    padding-left: 1.11vw;
+    margin-top: 10.76vh;
 }

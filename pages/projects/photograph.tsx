@@ -14,7 +14,7 @@ import Image from 'next/image';
 
 const Photograh = (): any => {
   return (
-    <Layout style={{height: '3000px' }}>
+    <Layout style={{height: '200vh' }}>
       <div className={styles.container}>
         <span className={styles.listTitle}>
           <span>PHOTOGRAPH</span>
@@ -108,7 +108,7 @@ const Photograh = (): any => {
               </div>
             </div>
           </div>
-          <Footer/>
+          <Footer style={{zIndex:'20'}}/>
         </div>
       </div>
     </Layout>

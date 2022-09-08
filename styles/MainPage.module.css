@@ -1,22 +1,23 @@
 .container {
     position: absolute;
-    margin-top: 386px;
+    margin-top: 48.31vh;
     width: 100%;
-    height: 2240px;
+    height: 280.35vh;
 }
 .textWrapper {
     margin-left: 13%;
-    width: 1050px;
+    width: 72.92vw;
     z-index: 20;
-    font-size: 48px;
-    padding-left:13px;
-    margin-bottom: 52px;
+    font-size: 3.33vw;
+    padding-left:0.9vw;
+    margin-bottom: 6.51vh;
 }
 
 .imageWrapper {
     width: 100%;
     z-index: 20;
-    padding: 0 10px;
+    padding-right: 0.69vw;
+    padding-left: 0.69vw;
 }
 
 .locationWrapper {
@@ -24,41 +25,47 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 2.5vh;
     color: #7E7D7D;
-    font-size: 24px;
+    font-size: 1.67vw;
     font-weight: normal;
 }
 
 .icon {
-    width: 28px;
-    height: 28px;
-    margin-right: 8px;
-    background-image: url('../assets//icons/location.svg');
+    width: 1.94vw;
+    height: 3.5vh;
+    margin-right: 0.56vw;
+    background-image: url('../assets/icons/location.svg');
+    background-repeat: no-repeat;
 }
 
 .contentWrapper {
-    height: 1241px;
+    height: 155.32vh;
     width: 100%;
     background-color: #E4E3E3;
-    padding-left:619px;
-    padding-top: 140px;
+    padding-left:42.99vw;
+    padding-top: 17.52vh;
 }
 
 .contentTitle {
-    font-size: 128px;
+    font-size: 8.89vw;
 }
 
 .listWrapper {
-    font-size: 75px;
+    margin-top: 14.12vh;
+    margin-bottom: 43.93vh;
+    font-size: 5.21vw;
     display: flex;
     flex-direction: column;
 }
 
 .listEl {
     border-top: 5px solid black;
-    width: 694px;
-    padding: 16px 3px;
+    width: 48.19vw;
+    padding-top: 2vh;
+    padding-right: 0.21vw;
+    padding-bottom:  2vh;
+    padding-left: 0.21vw;
     display: flex;
     flex-direction: row;
     align-items: center;

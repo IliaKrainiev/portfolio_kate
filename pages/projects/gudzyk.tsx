@@ -1,7 +1,7 @@
 import Footer from '../Footer';
 import Layout from '../Layout';
 
-import styles from '../../styles/Photograph.module.css';
+import styles from '../../styles/Gudzyk.module.css';
 
 import Pic1 from '../../assets/images/gudzyk/pic1.png';
 import Pic2 from '../../assets/images/gudzyk/pic2.png';
@@ -11,9 +11,9 @@ import Pic5 from '../../assets/images/gudzyk/pic5.png';
 
 import Image from 'next/image';
 
-const Photograh = (): any => {
+const Gudzyk = (): any => {
   return (
-    <Layout style={{height: '3000px' }}>
+    <Layout style={{height: '200vh' }}>
       <div className={styles.container}>
         <span className={styles.listTitle}>
           <span>GUDZYK</span>
@@ -104,11 +104,11 @@ const Photograh = (): any => {
               />
             </div>
           </div>
-          <Footer/>
+          <Footer style={{zIndex:'20'}}/>
         </div>
       </div>
     </Layout>
   );
 };
 
-export default Photograh;
+export default Gudzyk;

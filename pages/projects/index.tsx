@@ -12,58 +12,62 @@ import styles from '../../styles/Projects.module.css';
 
 const Projects = ():any => {
   return (
-    <Layout style={{height: '3600px'  }}>
+    <Layout style={{height: '445.5vh'  }}>
       <div className={styles.container}>
         <div className={styles.content}>
           <span className={styles.listTitle}>PROJECTS</span>
           <div className={styles.listWrapper}>
             <div className={styles.listEl}>
               <Link href="/projects/your-gym">
-                <Image src={YourGym}/>
+                <Image src={YourGym} layout="responsive"/>
               </Link>
               <Link href="/projects/your-gym">
                 <div className={styles.listElTitle}>
                   <span className={styles.listElText}>YOUR GYM</span>
+                  <span className={styles.supTitle}>(2022)</span>
                   <Image src={ArrowHorizontal} className={styles.listElImage} />
                 </div>
               </Link>
             </div>
             <div className={styles.listEl}>
               <Link href="/projects/photograph">
-                <Image src={Photograh}/> 
+                <Image src={Photograh} layout="responsive"/> 
               </Link>
               <Link href="/projects/photograph">
                 <div className={styles.listElTitle}>
                   <span className={styles.listElText}>PHOTO</span>
+                  <span className={styles.supTitle}>(2021)</span>
                   <Image src={ArrowHorizontal} className={styles.listElImage} />
                 </div>
               </Link>
             </div>
             <div className={styles.listEl}>
               <Link href="/projects/gudzyk">
-                <Image src={Gudzyk}/> 
+                <Image src={Gudzyk} layout="responsive"/> 
               </Link>
               <Link href="/projects/gudzyk">
                 <div className={styles.listElTitle}>
                   <span className={styles.listElText}>GUDZYK</span>
+                  <span className={styles.supTitle}>(2021)</span>
                   <Image src={ArrowHorizontal} className={styles.listElImage} />
                 </div>
               </Link>
             </div>
             <div className={styles.listEl}>
               <Link href="/projects/chanel">
-                <Image src={Chanel}/> 
+                <Image src={Chanel} layout="responsive"/> 
               </Link>
               <Link href="/projects/chanel">
                 <div className={styles.listElTitle}>
                   <span className={styles.listElText}>CHANEL</span>
+                  <span className={styles.supTitle}>(2021)</span>
                   <Image src={ArrowHorizontal} className={styles.listElImage} />
                 </div>
               </Link>
             </div>
           </div>
         </div>
-        <Footer/>
+        <Footer style={{zIndex:'20'}}/>
       </div>
     </Layout>
   );

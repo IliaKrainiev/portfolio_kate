@@ -19,7 +19,7 @@ import styles from '../../styles/YourGym.module.css';
 
 const YourGym = (): any => {
   return (
-    <Layout style={{height: '9353px' }}>
+    <Layout style={{height: '200vh' }}>
       <div className={styles.container}>
         <div className={styles.content}>
           <span className={styles.listTitle}>
@@ -178,7 +178,7 @@ const YourGym = (): any => {
               />
             </div>
           </div>
-          <Footer/>
+          <Footer style={{zIndex:'20'}}/>
         </div>
       </div>
     </Layout>

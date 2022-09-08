@@ -31,7 +31,7 @@ const Contacts = (): any => {
           </span>
         </Link>
       </div>
-      <Footer />
+      <Footer style={{zIndex:'-1'}}/>
     </div>   
   );
 };

@@ -7,7 +7,7 @@ import styles from '../styles/Home.module.css';
 const Home: NextPage = () => {
   return (
     <div className={styles.body}>
-      <Layout>
+      <Layout style={{height: '200vh' }}>
         <MainPage />
       </Layout>
     </div>

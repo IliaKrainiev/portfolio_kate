@@ -10,30 +10,33 @@ const LINKEDIN_LINK = 'https://www.linkedin.com/in/pohodaieva/';
 const TELEGRAM_LINK = 'TELEGRAM';
 const DRIBBLE_LINK = 'DRIBBLE';
 
-const Footer = (): any => {
+const Footer = ({ style }: any): any => {
   return (
-    <div className={styles.container}>
-      <div className={styles.footerTitle}>
-        <div className={styles.footerTitle1Line}><span>(Let`s talk)</span></div>
-        <div className={styles.footerTitle2Line}>
-          <a href="#"><span>POHODAIEVA.<br/>KATERYNA@GMAIL.COM</span></a>
-          <div className={styles.arrowImage} />
+    <div className={styles.container} style={style}>
+      <div className={styles.content}>
+        <div className={styles.footerTitle}>
+          <div className={styles.footerTitle1Line}><span>(Let`s talk)</span></div>
+          <div className={styles.footerTitle2Line}>
+            <a href="#"><span>POHODAIEVA.<br/>KATERYNA@GMAIL.COM</span></a>
+            <div className={styles.arrowImage} />
+          </div>
+        </div>
+        <div className={styles.buttonGroup}> 
+          <Link 
+            buttonText={LINKEDIN_TEXT}
+            buttonLink={LINKEDIN_LINK}
+          />
+          <Link 
+            buttonText={TELEGRAM_TEXT}
+            buttonLink={TELEGRAM_LINK}
+          />
+          <Link 
+            buttonText={DRIBBLE_TEXT}
+            buttonLink={DRIBBLE_LINK}
+          />
         </div>
       </div>
-      <div className={styles.buttonGroup}> 
-        <Link 
-          buttonText={LINKEDIN_TEXT}
-          buttonLink={LINKEDIN_LINK}
-        />
-        <Link 
-          buttonText={TELEGRAM_TEXT}
-          buttonLink={TELEGRAM_LINK}
-        />
-        <Link 
-          buttonText={DRIBBLE_TEXT}
-          buttonLink={DRIBBLE_LINK}
-        />
-      </div>
+
     </div>
   );
 };
