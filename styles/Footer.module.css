@@ -10,16 +10,16 @@
 }
 
 .buttonGroup {
-    height: 18.02vh;
     display: flex;
     flex-direction: row;
-    border-top: 0.25vh white solid;
+    border-top: 0.25vh #E4E3E3 solid;
     width: 100%;
     justify-content: space-between;
     align-items: center;
     padding-top: 4.01vh;
     padding-left: 3.19vw;
     padding-right: 3.19vw;
+    padding-bottom: 8vh;
 }
 
 .footerTitle {
