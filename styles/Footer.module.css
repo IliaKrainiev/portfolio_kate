@@ -35,7 +35,6 @@
 .footerTitle2Line {
     display: flex;
     flex-direction: row;
-    align-items: flex-end;
     font-size: 5.28vw;
     padding-bottom: 4.01vh;
 }
@@ -43,7 +42,8 @@
 .arrowImage {
     background-image: url('../assets/icons/arrow.svg');
     background-repeat: no-repeat;
-    height: 13.64vh;
+    height: 14.4vh;
     width: 10.21vw;
     margin-left: 2.08vw;
+    align-self: flex-end;
 }
