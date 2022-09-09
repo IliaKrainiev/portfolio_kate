@@ -12,7 +12,7 @@ import Image from 'next/image';
 
 const Chanel = (): any => {
   return (
-    <Layout style={{height: '3000px' }}>
+    <Layout style={{height: '200vh' }}>
       <div className={styles.container}>
         <span className={styles.listTitle}>
           <span>CHANEL 5</span>
