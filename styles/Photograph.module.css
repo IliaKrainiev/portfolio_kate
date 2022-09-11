@@ -11,18 +11,18 @@
 
 .listTitle {
     margin-left: 27.5vw;
-    font-weight: bold;
     font-size: 8.89vw;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     margin-bottom: 9.64vh;
+    font-family: "NeueMontreal-Medium";
 }
 
 .supTitle {
     font-size: 5.01vh;
-    font-weight: normal;
     margin-top: 2.50vh;
+    font-family: "NeueMontreal-Regular";
 }
 
 .img1Wrapper {
@@ -58,26 +58,26 @@
 }
 
 .infoItemTitle {
-    font-weight: bold;
+    font-family: "NeueMontreal-Medium";
 }
 
 .infoItemHint {
     margin-top: 1.38vh;
     color: #7E7D7D;
-    font-weight: normal;
+    font-family: "NeueMontreal-Medium";
 }
 
 .title {
     margin-top: 10.76vh;
-    font-weight: bold;
     font-size: 2.5vw;
 }
 
 .text {
     margin-top: 1.88vh;
-    font-weight: normal;
     font-size: 1.39vw;
     width: 44.79vw;
+    color: #666666;
+    font-family: "NeueMontreal-Medium";
 }
 
 .alignLeft {

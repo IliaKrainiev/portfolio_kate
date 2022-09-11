@@ -11,6 +11,7 @@
 .listTitle {
     margin-left: 43.54vw;
     font-size: 8.89vw;
+    font-family: "NeueMontreal-Medium";
 }
 
 .listWrapper {
@@ -24,6 +25,7 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 17.52vh;
+    font-family: "NeueMontreal-Regular";
 }
 
 .listElTitle {

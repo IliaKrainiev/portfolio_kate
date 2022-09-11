@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "NeueMontreal-Medium";
+    src: url("../assets/fonts/NeueMontreal-Medium.otf");
+    font-weight: 500
+  }
+  
+  @font-face {
+    font-family: "NeueMontreal-Regular";
+    src: url("../assets/fonts/NeueMontreal-Regular.otf");
+    font-weight: normal;
+    font-style: normal;
+  }
+  

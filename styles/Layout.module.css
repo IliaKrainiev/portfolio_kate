@@ -9,8 +9,8 @@
     display: flex;
     flex-direction: row;
     font-size: 1.11vw;
-    font-weight: bold;
     position: absolute;
+    font-family: "NeueMontreal-Regular";
 }
 
 .vl2, .vl4, .vl6 {

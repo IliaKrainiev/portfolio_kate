@@ -12,7 +12,7 @@ const MainPageTitle = (): any => {
         <div className={styles.icon}/><span>Kyiv, Ukraine</span>
       </div>
       <div className={styles.textWrapper}>
-        <span>HEY! I`M KATERYNA, UI/UX DESIGNER, WHO FOND OF CREATING FASHION WEBSITES AND CONVENIENT APPS</span>
+        <span>HEY! I&#39;M KATERYNA, UI/UX DESIGNER, WHO FOND OF CREATING FASHION WEBSITES AND CONVENIENT APPS</span>
       </div>
       <div className={styles.imageWrapper}>
         <Image 

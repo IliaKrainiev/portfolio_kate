@@ -5,15 +5,15 @@
 
 .container {
     background-color: #E4E3E3;
-    height: 100%;
+    /* height: 100%; */
     width: 100%;
     display: flex;
     flex-direction: row;
     font-size: 1.11vw;
-    font-weight: bold;
     position: absolute;
     color: white;
     z-index: 40;
+    font-family: "NeueMontreal-Regular";
 }
 
 .vl2, .vl4, .vl6 {
