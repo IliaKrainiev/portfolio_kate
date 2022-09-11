@@ -40,6 +40,10 @@
 }
 
 .arrowImage {
+    background-image: url('../assets/icons/arrow.svg');
+    background-repeat: no-repeat;
+    width: 10vw;
+    height: 12vh;
     margin-left: 2.08vw;
     align-self: flex-end;
 }
