@@ -1,6 +1,9 @@
 import React from 'react';
+import Image from 'next/image';
+
 import Link from '../components/Link';
 import styles from '../styles/Footer.module.css';
+import Arrow from '../assets/icons/arrow.svg';
 
 const LINKEDIN_TEXT = 'LINKEDIN';
 const TELEGRAM_TEXT = 'TELEGRAM';
@@ -18,7 +21,7 @@ const Footer = ({ style }: any): any => {
           <div className={styles.footerTitle1Line}><span>(Let`s talk)</span></div>
           <div className={styles.footerTitle2Line}>
             <a href="#"><span>POHODAIEVA.<br/>KATERYNA@GMAIL.COM</span></a>
-            <div className={styles.arrowImage} />
+            <Image src={Arrow} className={styles.arrowImage}/>
           </div>
         </div>
         <div className={styles.buttonGroup}> 
