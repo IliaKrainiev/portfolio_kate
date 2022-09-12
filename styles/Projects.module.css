@@ -1,7 +1,7 @@
 .container {
-    top: 36.80vh;
-    position:absolute;
+    margin-top: 36.80vh;
     width: 100%;
+    padding-bottom: 20vh;
 }
 
 .content {

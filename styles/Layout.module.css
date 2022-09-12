@@ -1,15 +1,9 @@
-.main {
-    height: 100%;
-    background-color: #E4E3E3;
-}
-
 .container {
-    background-color: #E4E3E3;
     width: 100%;
     display: flex;
     flex-direction: row;
     font-size: 1.11vw;
-    position: absolute;
+    position: relative;
     font-family: "NeueMontreal-Regular";
 }
 
@@ -19,44 +13,74 @@
 
 }
 
+.vl1, .vl2, .vl3, .vl4, .vl5, .vl6, .vl7 {
+    position: absolute;
+    z-index: -1;
+    background-color: #E4E3E3;
+}
+
+.linkText1, .linkText2, .linkText3 {
+    position: absolute;
+    z-index: 200 !important;
+    top: 3.63vh;
+}
+
+.linkText1 {
+    left: 10.21vw;
+}
+
+.linkText2 {
+    left: 43.54vw;
+}
+
+.linkText3 {
+    left: 76.94vw;
+}
+
 .vl1 {
-    width: 10%;
+    width: 9.1vw;
     height: 100%;
     border-right: 1px solid #C8C5C5;
 }
 
 .vl2 {
-    width: 17%;
+    left: 9.1vw;;
+    width: 16.67vw;
     height: 100%;
     border-right: 1px solid #C8C5C5;
 }
 
 .vl3 {
-    width: 16%;
+    left: 25.77vw;
+    width: 16.67vw;
     height: 100%;
     border-right: 1px solid #C8C5C5;
 }
 
 .vl4 {
-    width: 17%;
+    left: 42.44vw;
+    width: 16.67vw;
     height: 100%;
     border-right: 1px solid #C8C5C5;
 }
 
 .vl5 {
-    width: 17%;
+    left: 59.11vw;
+    width: 16.67vw;
     height: 100%;
     border-right: 1px solid #C8C5C5;
 }
 
 .vl6 {
-    width: 15%;
+    left: 75.78vw;
+    width: 16.67vw;
     height: 100%;
     border-right: 1px solid #C8C5C5;
 }
 
 .vl7 {
-    width: 8%;
+    left: 92.45vw;
+    width: 8vw;
     height: 100%;
     border-right: px solid #C8C5C5;
 }

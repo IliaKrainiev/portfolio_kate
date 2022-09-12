@@ -12,7 +12,7 @@ import styles from '../../styles/Projects.module.css';
 
 const Projects = ():any => {
   return (
-    <Layout style={{height: '445.5vh'  }}>
+    <Layout style={{height: '100%' }}>
       <div className={styles.container}>
         <div className={styles.content}>
           <span className={styles.listTitle}>PROJECTS</span>
@@ -67,7 +67,7 @@ const Projects = ():any => {
             </div>
           </div>
         </div>
-        <Footer style={{zIndex:'20'}}/>
+        <Footer style={{zIndex:'20'}}/>/
       </div>
     </Layout>
   );

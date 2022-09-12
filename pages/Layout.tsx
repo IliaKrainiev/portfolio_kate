@@ -7,30 +7,28 @@ const Layout = ({ children, style }: { children: any, style?: any }): any => {
     <div className={styles.container} style={style}> 
       {children}
       <div className={styles.vl1} /> 
-      <div className={styles.vl2}>
-        <Link href="/">
-          <span>
+      <Link href="/">
+        <span className={styles.linkText1}>
               01<br/>
               HOME
-          </span>
-        </Link>
-      </div> 
+        </span>
+      </Link>
+      <div className={styles.vl2}/>
       <div className={styles.vl3} />
-      <div className={styles.vl4}>
-        <Link href="/projects">
-          <span>
+      <Link href="/projects">
+        <span className={styles.linkText2}>
           02<br/>PROJECTS
-          </span>
-        </Link>
-      </div> 
+        </span>
+      </Link>
+      <div className={styles.vl4} />
       <div className={styles.vl5} /> 
-      <div className={styles.vl6} >
-        <Link href="/contact">
-          <span>
+      <Link href="/contact">
+        <span className={styles.linkText3}>
           03<br/>CONTACT
-          </span>
-        </Link>
-      </div>
+        </span>
+      </Link>
+      <div className={styles.vl6} />
+      <div className={styles.vl7} /> 
     </div>   
   );
 };
