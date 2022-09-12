@@ -25,6 +25,10 @@
     top: 3.63vh;
 }
 
+.linkText1:hover, .linkText2:hover, .linkText3:hover {
+    text-decoration: underline;
+}
+
 .linkText1 {
     left: 10.21vw;
 }
@@ -80,7 +84,7 @@
 
 .vl7 {
     left: 92.45vw;
-    width: 8vw;
+    width: 7.55vw;
     height: 100%;
     border-right: px solid #C8C5C5;
 }

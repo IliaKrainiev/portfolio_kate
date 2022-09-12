@@ -12,7 +12,7 @@ const MainPageTitle = (): any => {
         <div className={styles.icon}/><span>Kyiv, Ukraine</span>
       </div>
       <div className={styles.textWrapper}>
-        <span>HEY! I&#39;M KATERYNA, UI/UX DESIGNER, WHO FOND OF CREATING FASHION WEBSITES AND CONVENIENT APPS</span>
+        <span>HEY! I&#39;M KATERYNA, UI/UX DESIGNER, WHO FOND OF CREATING FASHION WEBSITES AND CONVENIENT APPS/</span>
       </div>
       <div className={styles.imageWrapper}>
         <Image 
@@ -29,28 +29,32 @@ const MainPageTitle = (): any => {
           <Link href="/projects/your-gym">
 
             <div className={styles.listEl}>
+              <div className={styles.smallImage} />
               <span className={styles.listElText}>YOUR GYM</span>
-              <Image src={ArrowHorizontal} className={styles.listElImage} />
+              <div className={styles.listElImage} />
             </div>
           </Link>
           <Link href="/projects/photograph">
 
             <div className={styles.listEl}>
+            <div className={styles.smallImage} />
               <span className={styles.listElText}>PHOTO</span>
-              <Image src={ArrowHorizontal} className={styles.listElImage} />
+              <div className={styles.listElImage} />
             </div>
           </Link>
           <Link href="/projects/gudzyk">
 
             <div className={styles.listEl}>
+              <div className={styles.smallImage} />
               <span className={styles.listElText}>GUDZYK</span>
-              <Image src={ArrowHorizontal} className={styles.listElImage} />
+              <div className={styles.listElImage} />
             </div>
           </Link>
           <Link href="/projects/chanel">
             <div className={styles.listEl}>
+              <div className={styles.smallImage} />
               <span className={styles.listElText}>CHANEL 5</span>
-              <Image src={ArrowHorizontal} className={styles.listElImage} />
+              <div className={styles.listElImage} />
             </div>
           </Link>
 

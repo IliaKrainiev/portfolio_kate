@@ -11,7 +11,6 @@
     width: 72.92vw;
     z-index: 20;
     font-size: 3.33vw;
-    padding-left:0.9vw;
     margin-bottom: 6.51vh;
 }
 
@@ -70,13 +69,65 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
+}
+
+
+.listEl:last-of-type {
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    width: 48.19vw;
+    padding-top: 2vh;
+    padding-right: 0.21vw;
+    padding-bottom:  2vh;
+    padding-left: 0.21vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .listElText {
-    flex: 1;
+    flex-basis: 80%;
 }
 
 .listElImage {
     margin-left: 0;
+    flex-basis: 15%;
+}
+
+.smallImage {
+    width: 0px;
+    height: 0px;
+    background-image: url('../assets/images/your_gym/small.svg');
+    background-repeat: no-repeat;
+    margin-bottom: 1vh;
+}
+
+.listEl:hover > .smallImage {
+    transition: width 0.2s ease-in;
+    transition: height 0.2s ease-in;
+    width: 12vw;
+    height: 7.14vh;
+}
+
+.listEl:hover > .listElText {
+    transition: flex-basis 0.2s ease;
+    flex-basis: 60%;
+}
+
+.listElImage {
+    background-image: url('../assets/icons/arror-horizontal.svg');
+    width: 13vw;
+    height: 11.89vh;
+    background-repeat: no-repeat;
+}
+
+.listEl:hover > .listElImage {
+    transform: rotate(-45deg);
+    transition: transform 0.2s ease-in-out; /* Equal to rotateZ(45deg) */
+}
+
+.listEl:hover {
+    cursor: url('../assets/icons/cursor2.svg') 24 24, pointer;
 }
 
