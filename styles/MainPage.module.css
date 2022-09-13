@@ -100,31 +100,30 @@
     height: 0px;
     background-image: url('../assets/images/your_gym/small.svg');
     background-repeat: no-repeat;
-    margin-bottom: 1vh;
 }
 
 .listEl:hover > .smallImage {
-    transition: width 0.2s ease-in;
-    transition: height 0.2s ease-in;
-    width: 12vw;
-    height: 7.14vh;
+    transition: width 0.3s ease-in;
+    transition: height 0.3s ease-in;
+    width: 134px;
+    height: 67px;
 }
 
 .listEl:hover > .listElText {
-    transition: flex-basis 0.2s ease;
+    transition: flex-basis 0.3s ease;
     flex-basis: 60%;
 }
 
 .listElImage {
-    background-image: url('../assets/icons/arror-horizontal.svg');
-    width: 13vw;
-    height: 11.89vh;
+    background-image: url('../assets/icons/arrow-horizontal.svg');
+    width: 95px;
+    height: 95px;
     background-repeat: no-repeat;
 }
 
 .listEl:hover > .listElImage {
     transform: rotate(-45deg);
-    transition: transform 0.2s ease-in-out; /* Equal to rotateZ(45deg) */
+    transition: transform 0.3s ease-in-out; /* Equal to rotateZ(45deg) */
 }
 
 .listEl:hover {

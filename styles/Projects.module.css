@@ -38,10 +38,61 @@
     font-weight: normal;
 }
 
+.listElText {
+    flex-basis: 87%;
+}
+
 .supTitle {
     font-size: 1.67vw;
     font-weight: normal;
     margin-top: 2vh;
     margin-left: 0.3vw;
-    flex: 1;
+}
+
+
+
+.smallImage {
+    width: 0px;
+    height: 0px;
+    background-image: url('../assets/images/your_gym/small.svg');
+    background-repeat: no-repeat;
+}
+
+.listElTitle:hover > .smallImage {
+    transition: width 0.3s ease-in;
+    transition: height 0.3s ease-in;
+    width: 134px;
+    height: 67px;
+    flex-basis: 23%;
+}
+
+.listElTitle:hover > .listElText {
+    transition: flex-basis 0.3s ease;
+    flex-basis: 64%;
+}
+
+.listElTitle:hover > .listElImage {
+    transform: rotate(-45deg);
+    transition: transform 0.3s ease-in-out;
+}
+
+.listElTitle:hover {
+    cursor: url('../assets/icons/cursor2.svg') 24 24, pointer;
+}
+
+.listElImage {
+    margin-left: 0;
+    flex-basis: 13%;
+}
+
+.listElImage {
+    background-image: url('../assets/icons/arrow-horizontal.svg');
+    width: 95px;
+    height: 95px;
+    background-repeat: no-repeat;
+}
+
+.listEl:hover > .listElImage {
+    transform: rotate(-45deg);
+    transition: transform 0.3s ease-in-out;
 }

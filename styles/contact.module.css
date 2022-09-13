@@ -14,11 +14,16 @@
     color: white;
     z-index: 40;
     font-family: "NeueMontreal-Regular";
+    cursor: url('../assets/icons/cursor_white.svg') 24 24, pointer !important;
 }
 
 .vl2, .vl4, .vl6 {
     padding-left: 1.11vw;
     padding-top: 3.63vh;
+}
+
+.textLink:hover {
+    text-decoration: underline;
 }
 
 .vl1 {

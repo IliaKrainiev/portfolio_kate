@@ -4,6 +4,7 @@
     background-color: #000000;
     color: #E4E3E3;
     font-family: "NeueMontreal-Regular";
+    cursor: url('../assets/icons/cursor_white.svg') 24 24, pointer !important;
 }
 
 .content {
@@ -38,6 +39,11 @@
     flex-direction: row;
     font-size: 5.28vw;
     padding-bottom: 4.01vh;
+    cursor: url('../assets/icons/cursor_white_filled.svg') 24 24, pointer !important;
+}
+
+.footerTitle2Line > a {
+    cursor: url('../assets/icons/cursor_white_filled.svg') 24 24, pointer !important;
 }
 
 .arrowImage {

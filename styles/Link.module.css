@@ -7,6 +7,11 @@
     border-radius: 2.78vw;
     display: flex;
     align-items: center;
+    cursor: url('../assets/icons/cursor_white_filled.svg') 24 24, pointer !important;
+}
+
+.button > .text > a {
+    cursor: url('../assets/icons/cursor_white_filled.svg') 24 24, pointer !important;
 }
 
 .text {

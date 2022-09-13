@@ -1,7 +1,6 @@
 import Footer from '../Footer';
 import Layout from '../Layout';
 import Image from 'next/image';
-import ArrowHorizontal from '../../assets/icons/arror-horizontal.svg';
 import YourGym from '../../assets/images/your_gym/project_main.png';
 import Chanel from '../../assets/images/chanel/project_main.png';
 import Photograh from '../../assets/images/photograph/project_main.png';
@@ -23,9 +22,11 @@ const Projects = ():any => {
               </Link>
               <Link href="/projects/your-gym">
                 <div className={styles.listElTitle}>
-                  <span className={styles.listElText}>YOUR GYM</span>
-                  <span className={styles.supTitle}>(2022)</span>
-                  <Image src={ArrowHorizontal} className={styles.listElImage} />
+                  <div className={styles.smallImage} />
+                  <div className={styles.listElText}>YOUR GYM
+                    <span className={styles.supTitle}>(2022)</span>
+                  </div>
+                  <div className={styles.listElImage} />
                 </div>
               </Link>
             </div>
@@ -35,9 +36,11 @@ const Projects = ():any => {
               </Link>
               <Link href="/projects/photograph">
                 <div className={styles.listElTitle}>
-                  <span className={styles.listElText}>PHOTO</span>
-                  <span className={styles.supTitle}>(2021)</span>
-                  <Image src={ArrowHorizontal} className={styles.listElImage} />
+                  <div className={styles.smallImage} />
+                  <div className={styles.listElText}>PHOTO
+                    <span className={styles.supTitle}>(2021)</span>
+                  </div>
+                  <div className={styles.listElImage} />
                 </div>
               </Link>
             </div>
@@ -47,9 +50,11 @@ const Projects = ():any => {
               </Link>
               <Link href="/projects/gudzyk">
                 <div className={styles.listElTitle}>
-                  <span className={styles.listElText}>GUDZYK</span>
-                  <span className={styles.supTitle}>(2021)</span>
-                  <Image src={ArrowHorizontal} className={styles.listElImage} />
+                  <div className={styles.smallImage} />
+                  <div className={styles.listElText}>GUDZYK
+                    <span className={styles.supTitle}>(2021)</span>
+                  </div>
+                  <div className={styles.listElImage} />
                 </div>
               </Link>
             </div>
@@ -59,9 +64,11 @@ const Projects = ():any => {
               </Link>
               <Link href="/projects/chanel">
                 <div className={styles.listElTitle}>
-                  <span className={styles.listElText}>CHANEL</span>
-                  <span className={styles.supTitle}>(2021)</span>
-                  <Image src={ArrowHorizontal} className={styles.listElImage} />
+                  <div className={styles.smallImage} />
+                  <div className={styles.listElText}>CHANEL
+                    <span className={styles.supTitle}>(2021)</span>
+                  </div>
+                  <div className={styles.listElImage} />
                 </div>
               </Link>
             </div>

@@ -1,6 +1,5 @@
 import styles from '../styles/MainPage.module.css';
 import MainImage from '../assets/images/main.png';
-import ArrowHorizontal from '../assets/icons/arror-horizontal.svg';
 import Image from 'next/image';
 import Link from 'next/link';
 import Footer from './Footer';
@@ -37,7 +36,7 @@ const MainPageTitle = (): any => {
           <Link href="/projects/photograph">
 
             <div className={styles.listEl}>
-            <div className={styles.smallImage} />
+              <div className={styles.smallImage} />
               <span className={styles.listElText}>PHOTO</span>
               <div className={styles.listElImage} />
             </div>

@@ -9,7 +9,7 @@ const Contacts = (): any => {
       <div className={styles.vl1} /> 
       <div className={styles.vl2}>
         <Link href="/">
-          <span>
+          <span className={styles.textLink}>
               01<br/>
               HOME
           </span>
@@ -18,7 +18,7 @@ const Contacts = (): any => {
       <div className={styles.vl3} />
       <div className={styles.vl4}>
         <Link href="/projects">
-          <span>
+          <span className={styles.textLink}>
           02<br/>PROJECTS
           </span>
         </Link>
@@ -26,7 +26,7 @@ const Contacts = (): any => {
       <div className={styles.vl5} /> 
       <div className={styles.vl6} >
         <Link href="/contact">
-          <span>
+          <span className={styles.textLink}>
           03<br/>CONTACT
           </span>
         </Link>
