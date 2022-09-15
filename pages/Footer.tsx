@@ -9,7 +9,7 @@ const DRIBBLE_TEXT = 'DRIBBLE';
 
 const LINKEDIN_LINK = 'https://www.linkedin.com/in/pohodaieva/';
 const TELEGRAM_LINK = 'https://t.me/god1sdead';
-const DRIBBLE_LINK = 'https://dribbble.com/SorryForThis';
+const DRIBBLE_LINK = 'https://dribbble.com/PohodaievaKateryna';
 
 const Footer = ({ style }: any): any => {  
   const cardVariants = {
