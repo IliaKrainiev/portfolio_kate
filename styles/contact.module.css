@@ -4,7 +4,7 @@
 }
 
 .container {
-    background-color: #E4E3E3;
+    /* background-color: #E4E3E3; */
     /* height: 100%; */
     width: 100%;
     display: flex;
@@ -59,4 +59,63 @@
 .vl7 {
     width: 8%;
     height: 100%;
+}
+
+
+.footerContainer {
+    position: absolute;
+    width: 100%;
+    /* background-color: #000000; */
+    color: #E4E3E3;
+    font-family: "NeueMontreal-Regular";
+    cursor: url('../assets/icons/cursor_white.svg') 24 24, pointer !important;
+}
+
+.content {
+    padding-top: 50vh;
+}
+
+.buttonGroup {
+    display: flex;
+    flex-direction: row;
+    border-top: 0.25vh #E4E3E3 solid;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 4.01vh;
+    padding-left: 3.19vw;
+    padding-right: 3.19vw;
+    padding-bottom: 8vh;
+}
+
+.footerTitle {
+    box-sizing: content-box;
+    padding-left: 0.77vw;
+}
+
+.footerTitle1Line {
+    font-size: 1.39vw;
+    margin-bottom: 0.75vh;
+}
+
+.footerTitle2Line {
+    display: flex;
+    flex-direction: row;
+    font-size: 5.28vw;
+    padding-bottom: 4.01vh;
+    cursor: url('../assets/icons/cursor_white_filled.svg') 24 24, pointer !important;
+}
+
+.footerTitle2Line > a {
+    cursor: url('../assets/icons/cursor_white_filled.svg') 24 24, pointer !important;
+}
+
+.arrowImage {
+    background-image: url('../assets/icons/arrow.svg');
+    background-repeat: no-repeat;
+    width: 123px;
+    height: 104px;
+    margin-bottom: 1vh;
+    margin-left: 2.08vw;
+    align-self: flex-end;
 }

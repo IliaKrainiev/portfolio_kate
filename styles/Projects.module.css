@@ -40,6 +40,9 @@
 
 .listElText {
     flex-basis: 87%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
 }
 
 .supTitle {
@@ -50,26 +53,6 @@
 }
 
 
-
-.smallImage {
-    width: 0px;
-    height: 0px;
-    background-image: url('../assets/images/your_gym/small.svg');
-    background-repeat: no-repeat;
-}
-
-.listElTitle:hover > .smallImage {
-    transition: width 0.3s ease-in;
-    transition: height 0.3s ease-in;
-    width: 134px;
-    height: 67px;
-    flex-basis: 23%;
-}
-
-.listElTitle:hover > .listElText {
-    transition: flex-basis 0.3s ease;
-    flex-basis: 64%;
-}
 
 .listElTitle:hover > .listElImage {
     transform: rotate(-45deg);
