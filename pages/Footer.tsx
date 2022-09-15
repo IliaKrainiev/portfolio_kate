@@ -8,8 +8,8 @@ const TELEGRAM_TEXT = 'TELEGRAM';
 const DRIBBLE_TEXT = 'DRIBBLE';
 
 const LINKEDIN_LINK = 'https://www.linkedin.com/in/pohodaieva/';
-const TELEGRAM_LINK = 'TELEGRAM';
-const DRIBBLE_LINK = 'DRIBBLE';
+const TELEGRAM_LINK = 'https://t.me/god1sdead';
+const DRIBBLE_LINK = 'https://dribbble.com/SorryForThis';
 
 const Footer = ({ style }: any): any => {  
   const cardVariants = {
@@ -47,8 +47,8 @@ const Footer = ({ style }: any): any => {
             variants={cardVariants}
           >
             <div className={styles.footerTitle2Line}>
-              <a href="#"><span>POHODAIEVA.<br/>KATERYNA@GMAIL.COM</span></a>
-              <div className={styles.arrowImage} />
+              <a href="mailto: pohodaieva.kateryna@gmail.com "><span>POHODAIEVA.<br/>KATERYNA@GMAIL.COM</span></a>
+              <a className={styles.arrowImage} href="mailto: pohodaieva.kateryna@gmail.com "/>
             </div>
           </motion.div>
         </div>
